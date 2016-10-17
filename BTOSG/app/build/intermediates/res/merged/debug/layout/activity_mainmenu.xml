@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="475dp">
+
+        <TextView
+            android:text="WELCOME TO BTO@SG"
+            android:textSize="70sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:id="@+id/textView2" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:text="Upcoming and Past Launches"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:id="@+id/textView3" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:text="View Flats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_viewflats"
+            android:layout_weight="1"
+            android:onClick="viewFlats"/>
+
+        <Button
+            android:text="Grant Query"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_grant"
+            android:layout_weight="1"
+            android:onClick="viewGrant" />/>
+
+        <Button
+            android:text="Calculator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_repayment"
+            android:layout_weight="1"
+            android:onClick="viewRepayment"/>
+    </TableRow>
+
+</LinearLayout>
