@@ -1,7 +1,7 @@
-#Tue Oct 11 20:42:00 SGT 2016
-base.0=C\:\\Users\\User\\Dropbox\\you know nth\\CZ2006 - BTO@SG\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_212a30d2bfd1aaffcaf58ff2eae3a7d41bc4c0a6
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\User\\Dropbox\\you know nth\\CZ2006 - BTO@SG\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_437d0dba02fc832b3d76b8ac066dca0ac87f3fec\\classes.dex
-base.1=C\:\\Users\\User\\Dropbox\\you know nth\\CZ2006 - BTO@SG\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_437d0dba02fc832b3d76b8ac066dca0ac87f3fec
-file.0=C\:\\Users\\User\\Dropbox\\you know nth\\CZ2006 - BTO@SG\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_212a30d2bfd1aaffcaf58ff2eae3a7d41bc4c0a6\\classes.dex
+#Mon Oct 17 11:34:45 SGT 2016
+base.0=/Users/thomaslim93/Desktop/BTO-SG/BTOSG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7289d9aa5f2b496a89ec528be2007fc294c24ccf
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/thomaslim93/Desktop/BTO-SG/BTOSG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1b1594aeb0fbb587873d8324000fa1c23d0fc8df/classes.dex
+base.1=/Users/thomaslim93/Desktop/BTO-SG/BTOSG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1b1594aeb0fbb587873d8324000fa1c23d0fc8df
+file.0=/Users/thomaslim93/Desktop/BTO-SG/BTOSG/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7289d9aa5f2b496a89ec528be2007fc294c24ccf/classes.dex

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="x86_64,x86"
     api-level="24"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.1"
-    timestamp="22005871385272"
-    token="-5522007543496896003"
+    timestamp="5509684537615"
+    token="-1166957125659598825"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="552982" />
+        duration="1992" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28721" />
+        duration="731" />
     <task
         name="verifier"
-        duration="6832" />
+        duration="23" />
 
     <artifact
-        location="C:\Users\User\Dropbox\you know nth\CZ2006 - BTO@SG\BTOSG\app\build\outputs\apk\app-debug.apk"
+        location="/Users/thomaslim93/Desktop/BTO-SG/BTOSG/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="22005871385272"
+        timestamp="5509684537615"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\User\Dropbox\you know nth\CZ2006 - BTO@SG\BTOSG\app\build\outputs\apk\app-debug.apk"
+            location="/Users/thomaslim93/Desktop/BTO-SG/BTOSG/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 
