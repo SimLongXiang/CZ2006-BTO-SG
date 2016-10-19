@@ -1,0 +1,7 @@
+#Wed Oct 19 16:59:50 SGT 2016
+base.0=C\:\\Users\\HaoZhe\\AndroidStudioProjects\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_53d1bb2b4a6c82809bc450bcf25a114996108a2f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\HaoZhe\\AndroidStudioProjects\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2e7213f9d7eb073151fd15ac2aa381b91317f184\\classes.dex
+base.1=C\:\\Users\\HaoZhe\\AndroidStudioProjects\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2e7213f9d7eb073151fd15ac2aa381b91317f184
+file.0=C\:\\Users\\HaoZhe\\AndroidStudioProjects\\BTOSG\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_53d1bb2b4a6c82809bc450bcf25a114996108a2f\\classes.dex

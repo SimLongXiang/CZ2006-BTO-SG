@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BTOSG</string>
+    <string-array name="applicant_type">
+        <item>First-Timer Couple</item>
+        <item>Second-Timer Couple</item>
+        <item>First-Timer and Second-Timer Couple</item>
+        <item>Single Singapore Citizen</item>
+        <item>Joint Singles Scheme</item>
+        <item>Orphans Scheme</item>
+    </string-array>
+
+    <string-array name="repayment_year">
+        <item>25</item>
+        <item>35</item>
+    </string-array>
+
+    <string-array name="room_type">
+        <item>2 Room</item>
+        <item>3 Room</item>
+        <item>4 Room</item>
+        <item>5 Room</item>
+    </string-array>
+
+    <string-array name="avg_income">
+        <item>less than $1500</item>
+        <item>$1501 - $2000</item>
+        <item>$2001 - $2500</item>
+        <item>$2501 - 3000</item>
+    </string-array>
+
+    <string-array name="sales_launch">
+        <item>25</item>
+        <item>35</item>
+    </string-array>
+    <string name="title_activity_view_maps">Map</string>
+
+</resources>

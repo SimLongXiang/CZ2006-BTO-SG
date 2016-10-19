@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:text="Description : \n\nStep 1: Enter Loan Amount. \n\nStep 2: Select Repayment Year from Drop Down box. \n\nStep 3: Select Repayment breakdown. \n\nStep 4: Press 'Calculate' Button.   "
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/textView" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:text="Loan Amount: "
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/textView4"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editText3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="0.10">
+
+            <TextView
+                android:text="Repayment Year: "
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/textView5"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries = "@array/repayment_year"
+                android:gravity = "right"
+                android:id="@+id/dropDownBox" />
+        </TableRow>
+
+        <TextView
+            android:text="Repayment breakdown : "
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/textView6"
+            android:layout_weight="0.21" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:id="@+id/seekBar" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+            <TextView
+                android:text="Percentage in CPF"
+                android:paddingLeft="10dp"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+            <TextView
+                android:text=""
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"/>
+
+            <TextView
+                android:text="Percentage in Cash"
+                android:paddingLeft="10dp"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+            <TextView
+                android:text=""
+                android:paddingLeft="10dp"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"/>
+            <TextView
+                android:text=""
+                android:paddingLeft="10dp"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"/>
+            <TextView
+                android:text=""
+                android:paddingLeft="10dp"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"/>
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="135dp">
+
+        <Button
+            android:text="View Flats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_viewflats"
+            android:layout_weight="1"
+            android:onClick="viewFlats"/>
+
+        <Button
+            android:text="Grant Query"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_grant"
+            android:layout_weight="1"
+            android:onClick="viewGrant" />/>
+
+        <Button
+            android:text="Calculator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_repayment"
+            android:layout_weight="1"
+            android:onClick="viewRepayment"/>
+    </TableRow>
+</LinearLayout>

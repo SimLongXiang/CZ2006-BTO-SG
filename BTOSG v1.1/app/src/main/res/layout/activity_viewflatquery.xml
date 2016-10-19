@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="View Affordable Flats"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:id="@+id/textView" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Price Range"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"/>
+
+            <SeekBar
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar2" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Room Type"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/room_type"
+                android:id="@+id/spinner" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Repayment Period"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"/>
+
+            <SeekBar
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar3" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <TextView
+                android:text="View Amenities"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:gravity="center"
+                android:id="@+id/textView8" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <fragment
+                xmlns:map="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                map:cameraTargetLat="1.3521 "
+                map:cameraTargetLng="103.8198"
+                map:cameraZoom="10"/>
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="1">
+
+
+            <Button
+
+                android:text="View Flats"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_viewflats"
+                android:layout_weight="1"
+                android:onClick="viewFlats"/>
+
+            <Button
+                android:text="Grant Query"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_grant"
+                android:layout_weight="1"
+                android:onClick="viewGrant" />/>
+
+            <Button
+                android:text="Calculator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_repayment"
+                android:layout_weight="1"
+                android:onClick="viewRepayment"/>
+        </TableRow>
+    </LinearLayout>
+    <!--    <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner"
+            android:paddingTop="500dp"
+            android:layout_marginTop="200dp" />-->
+    </LinearLayout>

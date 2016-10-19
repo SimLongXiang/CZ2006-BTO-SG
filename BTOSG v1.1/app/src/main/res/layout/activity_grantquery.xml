@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:weightSum="1">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="0.19">
+
+            <TextView
+                android:text="Type of Applicant"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/textView4"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:entries="@array/applicant_type"
+                android:id="@+id/dropDownBox3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="0.16">
+
+            <TextView
+                android:text="Average Monthly Income: "
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/textView5"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:paddingLeft="50dp"
+                android:entries="@array/avg_income"
+                android:id="@+id/dropDownBox" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="0.18">
+
+            <TextView
+                android:text="Sales Launch: "
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/textView6"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="50dp"
+                android:paddingLeft="50dp"
+                android:entries="@array/sales_launch"
+                android:id="@+id/dropDownBox1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:text="Calculate"
+                android:layout_width="50dp"
+                android:id="@+id/button_calculate"
+                android:layout_weight="1"
+                android:layout_height="50dp" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+
+            <TextView
+                android:text=""
+                android:paddingLeft="10dp"
+                android:layout_width="123dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"/>
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="135dp">
+
+        <Button
+            android:text="View Flats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_viewflats"
+            android:layout_weight="1"
+            android:onClick="viewFlats"/>
+
+        <Button
+            android:text="Grant Query"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_grant"
+            android:layout_weight="1"
+            android:onClick="viewGrant" />/>
+
+        <Button
+            android:text="Calculator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_repayment"
+            android:layout_weight="1"
+            android:onClick="viewRepayment"/>
+    </TableRow>
+</LinearLayout>
